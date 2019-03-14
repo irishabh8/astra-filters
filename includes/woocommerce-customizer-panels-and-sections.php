@@ -137,7 +137,7 @@ $wp_customize->add_control(
 	ASTRA_THEME_SETTINGS . '[ast-pro-woo-header-cart-total]', array(
 		'type' => 'checkbox',
 		'section' => 'section-astra-filters-woo',
-		'label' => __( 'Disable Header Cart Item\'s Total' ),
+		'label' => __( 'Disable Header Cart Item\'s Total', 'astra-filters' ),
 		'description'    => __( 'Check this option to disable the header cart items total.', 'astra-filters' ),
 		'priority' => 35,
 	)

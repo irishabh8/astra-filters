@@ -51,7 +51,7 @@ if ( ! function_exists( 'customize_navigation_link' ) ) :
 	 */
 	function customize_navigation_link( $links ) {
 
-		$links = array_merge( array( '<a href="customize.php">' . __( 'Customize' ) . '</a>' ), $links );
+		$links = array_merge( array( '<a href="customize.php">' . __( 'Customize', 'astra-filters' ) . '</a>' ), $links );
 		return $links;
 	}
 

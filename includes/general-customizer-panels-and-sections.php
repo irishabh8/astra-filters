@@ -122,7 +122,7 @@ $wp_customize->add_control(
 	ASTRA_THEME_SETTINGS . '[ast-theme-blog-enable-updated-date]', array(
 		'type' => 'checkbox',
 		'section' => 'section-astra-filters-blog',
-		'label' => __( 'Enable Last Updated Date Format' ),
+		'label' => __( 'Enable Last Updated Date Format', 'astra-filters' ),
 		'description'    => __( 'Display Last Updated date instead of Published Date on blog page posts meta.', 'astra-filters' ),
 		'priority' => 30,
 	)
@@ -141,7 +141,7 @@ $wp_customize->add_control(
 	ASTRA_THEME_SETTINGS . '[ast-theme-post-hide-prev-next-links]', array(
 		'type' => 'checkbox',
 		'section' => 'section-astra-filters-blog',
-		'label' => __( 'Hide Previous and Next Post Links' ),
+		'label' => __( 'Hide Previous and Next Post Links', 'astra-filters' ),
 		'description'    => __( 'Check this option to hide previous post and next post link on single post page.', 'astra-filters' ),
 		'priority' => 35,
 	)
@@ -206,7 +206,7 @@ $wp_customize->add_control(
 	ASTRA_THEME_SETTINGS . '[ast-close-hamburger-section-id-click-responsive]', array(
 		'type' => 'checkbox',
 		'section' => 'section-astra-filters-general',
-		'label' => __( 'Close Hamburger on Menu Item Click' ),
+		'label' => __( 'Close Hamburger on Menu Item Click', 'astra-filters' ),
 		'description'    => __( 'Check this option if you want close the hamburger menu or click of menu item in the responsive devices. Helpful when the menu is of type Flyout.', 'astra-filters' ),
 		'priority' => 10,
 	)
@@ -347,7 +347,7 @@ $wp_customize->add_control(
 	ASTRA_THEME_SETTINGS . '[ast-pro-hide-page-header-title]', array(
 		'type' => 'checkbox',
 		'section' => 'section-astra-filters-general',
-		'label' => __( 'Hide Page Title from Page Headers' ),
+		'label' => __( 'Hide Page Title from Page Headers', 'astra-filters' ),
 		'description'    => __( 'Check this option if you want to hide the page title from custom page header.', 'astra-filters' ),
 		'priority' => 5,
 	)
@@ -579,7 +579,7 @@ $wp_customize->add_control(
 	ASTRA_THEME_SETTINGS . '[ast-pro-woo-header-cart-total]', array(
 		'type' => 'checkbox',
 		'section' => 'section-astra-filters-woo',
-		'label' => __( 'Disable Header Cart Item\'s Total' ),
+		'label' => __( 'Disable Header Cart Item\'s Total', 'astra-filters' ),
 		'description'    => __( 'Check this option to disable the header cart items total.', 'astra-filters' ),
 		'priority' => 35,
 	)
