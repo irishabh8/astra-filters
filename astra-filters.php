@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Astra Filters
  * Plugin URI: https://wpastra.com/
- * Description: Astra Filter allows you to modify the static text that comes with Astra theme and Astra Pro addon.
+ * Description: Astra Filter allows you to modify the static text that comes with the Astra theme and Astra Pro addon.
  * Version: 1.0.0
  * Author: Brainstorm Force
  * Author URI: https://www.brainstormforce.com
